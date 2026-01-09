@@ -1,0 +1,107 @@
+body{
+  background-image: url("background/bc.jpg");
+  background-size: 1920px 1080px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+
+}
+
+.logo {
+  display: flex;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+}
+
+.menu_item {
+  height: 140px;
+  width: 200px;
+}
+
+.menu_item img {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color:white;
+  text-align: center;
+  margin-top: 80px;
+  text-shadow: 10px 10px 15px black;
+  
+}
+
+.form {
+  
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 30px
+  
+}
+
+.form_group {
+  margin: 20px 0px;
+  
+}
+
+.form_group label {
+  font-size: 15pt;
+}
+
+.form_group input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-size: 15pt;
+  font-family: "Times New Roman";
+  
+}
+
+.button {
+  width: 495px;
+  margin-top: 30px;
+  margin-left: 11px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Trebuchet MS;
+  border: solid 3px;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+fieldset {
+  margin-top: 50px;
+  border: none
+  
+}
+
+label {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding-bottom: 8px
+}
+
+#email {
+  width: 500px;
+}
+
+#pass {
+  width: 500px;
+}

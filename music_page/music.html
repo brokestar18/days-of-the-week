@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <a href="index.html" class="logo">
+        <img src="image/header/logo.jpg" alt="Logo" width='200'>
+    </a>
+     
+    <br><nav class="nav">
+      
+        
+        <div class="menu_item"><a href="../index.html"><img src="../image/menu_pic/home.jpg" alt="Hall"></a></div>
+          
+        <div class="menu_item"><a href="../music_page/music.html"><img src="image/menu_pic/music_a.jpg" alt="Music"></a></div>
+          
+        <div class="menu_item"><a href="../login/login.html"><img src="image/menu_pic/login.jpg" alt="Login"></a></div>
+        
+     
+      
+    </nav>
+  </header>
+      
+  
+      <main class="maim">
+        
+        <h1><big>Norse music</big></h1>
+        
+         <ul class="music">
+           <li class="music_item">
+             <figure class="music_group">
+               <figcaption class="music_nave">Danheim - Grima</figcaption>
+               <audio controls preload class="audio">
+                 <source src="audio/Danheim-Grima.mp3" type="audio/mpeg">
+               </audio>
+             </figure>
+           </li>
+          
+           <li class="music_item">
+             <figure class="music_group">
+               <figcaption class="music_nane">Danheim - Hel</figcaption>
+               <audio controls preload class="audio">
+                 <source src="audio/Danheim-Hel.mp3" type="audio/mpeg">
+               </audio>
+             </figure>
+           </li>
+           
+           <li class="music_item">
+             <figure class="music_group">
+               <figcaption class="music_name">Forndom  Och med vinden </figcaption>
+               <audio controls preload class="audio">
+                 <source src="audio/Forndom.mp3" type="audio/mpeg">
+               </audio>
+             </figure>
+           </li>
+             
+           <li class="music_item">
+             <figure class="music_group">
+               <figcaption class="music_name">Heilung – Alfadhirhaiti</figcaption>
+               <audio controls preload class="audio">
+                 <source src="audio/Heilung–Alfadhirhaiti.mp3" type="audio/mpeg">
+               </audio>
+             </figure>
+           </li>
+             
+           <li class="music_item">
+             <figure class="music_group">
+               <figcaption class="music_name">Runic Garden - Odin</figcaption>
+               <audio controls preload class="audio">
+                 <source src="audio/Runic Garden-Odin.mp3" type="audio/mpeg">
+               </audio>
+             </figure>
+           </li>  
+         </ul>
+        
+      </main>
+
+      <script>
+  const audios = document.querySelectorAll('audio');
+
+  audios.forEach(audio => {
+    audio.addEventListener('play', () => {
+      audios.forEach(other => {
+        if (other !== audio) {
+          other.pause();
+          
+        }
+      });
+    });
+  });
+</script>
+
+     </body>
+    </html>
+        
