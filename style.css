@@ -107,8 +107,10 @@ li:hover a {
 .day-card.active .day-text {
   max-height: 800px;
   opacity: 1;
+}
 
 .ident {
   text-ident: 20px;
 }
+
 
