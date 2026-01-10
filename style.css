@@ -110,7 +110,9 @@ li:hover a {
 }
 
 .ident {
+  display: liner-block;
   text-ident: 20px;
 }
+
 
 
