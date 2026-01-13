@@ -88,11 +88,11 @@ li:hover a {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: 2s;
+  transition: 12s;
 }
 
 .day_img:hover {
-  transform: rotate(-5deg);
+  transform: rotate(-1deg);
 }
 
 .main{
@@ -118,6 +118,7 @@ li:hover a {
   display: block;
   text-indent: 20px;
 }
+
 
 
 
