@@ -80,7 +80,6 @@ li:hover a {
   height: 350px;
   width: 350px;
   padding: 250px;
-  transition: 2s;
 }
 
 .day-card img {
@@ -88,12 +87,10 @@ li:hover a {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: 2s;
 }
 
 .day_img:hover {
   transform: scale(1.5);
-  transition: 2s;
 }
 
 .main{
@@ -119,6 +116,7 @@ li:hover a {
   display: block;
   text-indent: 20px;
 }
+
 
 
 
