@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  position: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -123,6 +123,7 @@ li:hover a {
   display: block;
   text-indent: 20px;
 }
+
 
 
 
