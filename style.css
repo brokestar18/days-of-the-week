@@ -22,8 +22,9 @@ body {
 .menu{
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 2rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .menu_item {
@@ -79,6 +80,7 @@ li:hover a {
   align-items: center;    
   gap: 20px;              
   padding: 40px 20px;
+  justify-items: center; 
 }
 
 .day-card{
@@ -123,6 +125,7 @@ li:hover a {
   display: block;
   text-indent: 20px;
 }
+
 
 
 
